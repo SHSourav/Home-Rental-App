@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".detailsActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardElevation="5dp">
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            app:auto_cycle="true"
+            app:corner_radius="20"
+            app:delay="0"
+            app:period="1000"
+            tools:ignore="MissingClass" />>
+        </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/details_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Flat:     House:        Road:       Area:"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/details_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Renting Price:"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:id="@+id/details_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Details info"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+
+            <TextView
+            android:id="@+id/details_extra_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="extra info"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+
+            <TextView
+            android:id="@+id/details_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="description"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/details_call_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="50dp"
+                android:text="Call For Rent"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:textSize="17dp"
+
+                >
+
+            </Button>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

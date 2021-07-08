@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="40dp"
+
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/updateProfileimage"
+            android:layout_width="1206dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/profile"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/SignUpShow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="Profile Settings"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/myAccountName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textSize="14dp"
+            android:textColor="#0A0A0A"
+            android:ems="10"/>
+
+        <TextView
+            android:id="@+id/myAccountPhone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Phone Number"
+            android:padding="2dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="1dp"
+            android:textSize="14dp"
+            android:textColor="#0A0A0A"
+            android:inputType="phone"
+            android:ems="10"/>
+
+
+
+        <EditText
+            android:id="@+id/myAccountEmail"
+            android:layout_width="match_parent"
+            android:hint="Email"
+            android:textSize="14dp"
+            android:textColor="#0A0A0A"
+            android:layout_height="wrap_content"
+            android:ems="10"/>
+        >
+
+
+        <EditText
+            android:id="@+id/myAccountPass"
+            android:layout_width="match_parent"
+            android:hint="Password"
+            android:textSize="14dp"
+            android:textColor="#0A0A0A"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/myAccountUpdateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:background="@color/colorPrimary"
+            android:textColor="#FBFBFB"
+            android:layout_marginTop="100dp"
+            android:text="Update Profile" />
+
+
+        <ProgressBar
+            android:visibility="gone"
+            android:id="@+id/progressId"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

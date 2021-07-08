@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactUs">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/contactus"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Contact Via Email:"
+        android:textColor="#111"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <LinearLayout
+        android:id="@+id/userMail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="35dp">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:src="@drawable/email"
+        />
+
+        <TextView
+            android:id="@+id/adminMail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Email Address"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Contact Via Phone:"
+        android:textColor="#111"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <LinearLayout
+
+        android:id="@+id/userCall"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="35dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/calluser"
+            />
+
+        <TextView
+            android:id="@+id/adminPhone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Phone Number"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

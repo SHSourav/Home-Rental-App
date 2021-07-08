@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1077172305511",
+    "firebase_url": "https://rent-a-home-9b11a.firebaseio.com",
+    "project_id": "rent-a-home-9b11a",
+    "storage_bucket": "rent-a-home-9b11a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077172305511:android:4b4e14d5e6bdc0155f5ec2",
+        "android_client_info": {
+          "package_name": "com.example.rentahome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077172305511-oe2kl00df56ed9qjdejh37k7aiba5k9o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rentahome",
+            "certificate_hash": "87691f873f6051ae9d08fcb1807d6aeb5f034643"
+          }
+        },
+        {
+          "client_id": "1077172305511-idq31lo6r1krf49716q6evj73fn1evkn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHKeVG2MFxpsfgJ8BEKMW--epFsIn0K1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077172305511-idq31lo6r1krf49716q6evj73fn1evkn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
